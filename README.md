@@ -296,17 +296,3 @@ docker compose up --build
 # Inspect docs metadata
 curl http://localhost:8000/admin/documents
 ```
-
-## Resume bullets
-
-- Built a GenAI support automation assistant using FastAPI, LangChain, Qdrant vector search, PostgreSQL, Redis, and Celery for document ingestion and retrieval-based customer support.
-- Implemented document upload, background indexing, semantic retrieval, issue classification, customer issue summarization, resolution-step generation, confidence scoring, and source-grounded responses.
-- Designed session/message storage, document metadata tracking, admin indexing status, health checks, Docker Compose deployment, and pytest coverage for core API flows.
-
-## Interview explanation
-
-> I built an e-commerce support automation backend where admins upload policy/product/FAQ documents and customers ask support questions. Uploads are stored and indexed asynchronously using Celery. The worker extracts text, chunks it with LangChain, embeds chunks with FastEmbed, and stores vectors in Qdrant. The chat endpoint retrieves relevant chunks, computes confidence, classifies the issue type, generates a grounded answer with citations, and refuses to answer when the uploaded documents do not support the query.
-
-## Why this is portfolio-worthy
-
-Most beginner projects stop at CRUD. This project shows backend architecture, async APIs, relational modeling, background jobs, vector search, RAG behavior, observability-style health checks, and defensive fallback logic. In recruiter language: it checks the AI box without being fake glitter glued to a todo app.
