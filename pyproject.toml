@@ -1,0 +1,49 @@
+[project]
+name = "ecommerce-rag-support-assistant"
+version = "0.1.0"
+description = "FastAPI + LangChain + Qdrant + PostgreSQL + Redis/Celery RAG support automation assistant"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "fastapi>=0.115,<0.117",
+  "uvicorn[standard]>=0.30,<0.33",
+  "SQLAlchemy[asyncio]>=2.0,<2.1",
+  "asyncpg>=0.29,<0.31",
+  "pydantic>=2.8,<3",
+  "pydantic-settings>=2.4,<3",
+  "python-multipart>=0.0.9,<0.1",
+  "celery[redis]>=5.4,<6",
+  "redis>=5,<6",
+  "qdrant-client[fastembed]>=1.10,<2",
+  "fastembed>=0.4,<0.8",
+  "langchain-core>=0.3,<0.4",
+  "langchain-text-splitters>=0.3,<0.4",
+  "langchain-openai>=0.2,<0.4",
+  "pypdf>=4,<6",
+  "orjson>=3.10,<4",
+  "aiofiles>=24,<25"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "pytest-asyncio>=0.24,<0.26",
+  "httpx>=0.27,<0.29",
+  "ruff>=0.6,<0.9"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]

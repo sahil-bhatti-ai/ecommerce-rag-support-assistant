@@ -1,0 +1,19 @@
+E-COMMERCE SUPPORT POLICY KNOWLEDGE BASE
+
+Refunds and Returns
+Customers can request a refund within 7 days of delivery if the product is damaged, defective, missing major parts, or significantly different from the product page description. Refund requests must include the order ID, delivery date, and a photo or video of the problem. If the claim is approved, the customer may receive a replacement, refund to original payment method, or store credit depending on stock availability and customer preference.
+
+Damaged or Defective Products
+Damaged items must be reported within 7 days of delivery. The support agent should ask for the order ID, photos of the damaged packaging, photos of the damaged product, and a brief explanation of the issue. If the product is confirmed defective or damaged in transit, the agent should offer a replacement first. If replacement stock is unavailable, the agent should offer a refund.
+
+Delivery and Shipping
+Standard delivery takes 3 to 7 business days after dispatch. If tracking has not updated for more than 72 hours, the support agent should escalate the shipment to logistics. If an order is delayed beyond the promised delivery window, the customer may request cancellation before delivery or wait for delivery with a goodwill coupon if approved by support.
+
+Billing and Duplicate Charges
+If a customer reports a duplicate charge, the support agent should verify the order ID, transaction reference, payment method, and timestamp. Pending bank authorizations usually auto-reverse within 5 to 7 business days. Confirmed duplicate captures should be escalated to the payments team for refund processing.
+
+Account Access
+For login or OTP issues, ask the customer to confirm the registered email address or phone number. Agents must not ask for passwords, full card numbers, CVV, or OTP codes. If the customer cannot access the account after standard recovery, escalate to account security.
+
+Non-covered Questions
+Support agents should not invent policies. If the uploaded policy documents do not contain the answer, agents must say that the available documents do not provide enough information and escalate to a human support specialist.
