@@ -1,6 +1,6 @@
 # E-commerce GenAI Support Automation Assistant
 
-A production-style FastAPI project for customer support automation using Retrieval-Augmented Generation (RAG), PostgreSQL, Redis/Celery, Qdrant vector search, and LangChain text splitting.
+A FastAPI project for customer support automation using Retrieval-Augmented Generation (RAG), PostgreSQL, Redis/Celery, Qdrant vector search, and LangChain text splitting.
 
 This is built to look like a serious backend + AI systems project, not a toy chatbot that hallucinates refunds because it read one FAQ and developed executive confidence.
 
